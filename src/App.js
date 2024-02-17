@@ -30,6 +30,7 @@ function App() {
       console.log(err);
     }
   }
+  
 
   const getMovieData = async (movieId) => {
      
@@ -41,7 +42,7 @@ function App() {
 
         setMovie(singleMovie);
 
-        setReviews(singleMovie.reviews);
+        setReviews(singleMovie.reviewIds);
         
 
     } 
